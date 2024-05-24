@@ -53,6 +53,9 @@
     .page_inner{
         max-width: 1200px;
     }
+    .page_inner .content_title{
+        text-align: center;
+      }
     .page_inner .div_1{
         flex-wrap: wrap;
     }
@@ -132,6 +135,9 @@
     main section div {
         width: 100%;
     }
+    .page_inner .content_title{
+        text-align: center;
+      }
     .page_inner .div_1{
         flex-wrap: wrap;
     }
@@ -203,6 +209,9 @@
     .page_inner .div_1{
         flex-wrap: wrap;
     }
+    .page_inner .content_title{
+        text-align: center;
+      }
     .div_1_sub2 .for_line_con .for_cap2{
         position: relative;
         top: 20px;
@@ -270,6 +279,9 @@
     .page_inner .div_1{
         flex-wrap: wrap;
     }
+    .page_inner .content_title{
+        text-align: center;
+      }
     .div_1_sub2 .for_line_con .for_cap2{
         position: relative;
         top: 20px;
