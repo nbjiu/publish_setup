@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        ${require('./include/_meta.html')}
+        <script>
+            (function(d) {
+              var config = {
+                kitId: 'adw8piw',
+                scriptTimeout: 3000,
+                async: true
+              },
+              h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+            })(document);
+        </script>
+    </head>
+    <body>
+        ${require('./include/_header.html')}
+        
+
+        <div class="page_inner">
+          <h3 class="content_title">product characteristics</h3>
+          <div class="characteristics_inn">
+            <section class="characteristics_sec01">
+              <div class="characteristics_img">
+                <div class="img">
+                  <img src="../assets/imgs/sub/characteristics_img_01.png" alt="">
+                </div>
+                <div class="txt">
+                  Vertical Continuous<br/>Casting
+                  
+                </div>
+              </div>
+              <div class="characteristics_text">
+                Continuous <br/>
+                Casting Process
+
+              </div>
+              <div class="characteristics_img">
+                <div class="img">
+                  <img src="../assets/imgs/sub/characteristics_img_02.png" alt="">
+                </div>
+                <div class="txt">
+                  Horizontal<br/>Continuous Casting
+                </div>
+              </div>
+              <span class="line01">line</span>
+              <span class="line02">line</span>
+            </section>
+            <section class="characteristics_sec02">
+              <div class="characteristics_sec02_inn">
+                <h3>Characteristics</h3>
+                <h4>Aluminum small diameter continuous<br/>
+                  casting bars have superior properties compared to extruded bars.</h4>
+                <ul>
+                  <li>Excellent formability with equiaxed grain structure</li>
+                  <li>Prevent grain growth after forging and heat treatment<br/>
+                    Easy production of hard workability and high-strength aluminum alloys</li>
+                  <li>Excellent heat treatment due to fine distribution of eutectic composites</li>
+                  <li>Economic efficiency is excellent due to reduced process</li>
+                </ul>
+              </div>
+            </section>
+          </div>
+        </div>
+        ${require('./include/_footer.html')}
+    </body>
+</html>
