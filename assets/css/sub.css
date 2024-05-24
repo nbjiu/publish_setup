@@ -24,6 +24,7 @@
     max-width: 1780px;
     height: 100%;
     margin: 0 auto;
+    /* background-color: blue; */
 }
 .page_inner .content_title{
     text-transform: uppercase;
