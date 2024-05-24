@@ -9,3 +9,20 @@
 
 /* dongil-steel CSS */
 .content_title {font-size: 36px;color: #141414;text-transform: uppercase;}
+
+
+.characteristics_inn {margin-top: 43px;}
+.characteristics_inn .characteristics_sec01 {position: relative; display: flex;justify-content: space-between;align-items: center;overflow: hidden;}
+.characteristics_inn .characteristics_text {margin-top:-72px;position: relative;font-size: 36px;font-weight: 500;text-align: center;background-color: #fff;line-height: 45px;text-transform: uppercase;border-radius: 124px;padding: 45px; box-shadow: 2px 2px 10px -1px rgb(0 0 0 / 30%)}
+.characteristics_inn .characteristics_text, .characteristics_inn .characteristics_img {z-index: 1;text-align: center;}
+.characteristics_inn .characteristics_sec01 .line01 {content: "";position: absolute;width: 80%;border: none;
+    border-top: 2px dashed #767676;left: 50%;top: 50%;transform: translate(-50%, -30px);text-indent: -999999999999px;height: 1px;}
+.characteristics_inn .characteristics_sec01 .line02 {content: "";position: absolute;width: 1px;border: none;
+    border-right: 2px dashed #767676;left: 50%;transform: translate(-50%);text-indent: -999999999999px;height: 25%;bottom: 20%;}
+.characteristics_inn .characteristics_img .txt {font-size: 24px;color: #141414;font-weight: 700;text-transform: uppercase;margin-top: 11px;}
+.characteristics_inn .characteristics_sec02 {display: flex;flex-direction: column;align-items: center;}
+.characteristics_inn .characteristics_sec02 h3{color: #0077b6;font-size: 30px;font-weight: 700;}
+.characteristics_inn .characteristics_sec02 h4{color: #141414;font-size: 20px;line-height: 26px;padding: 3px 0 9px;}
+.characteristics_inn .characteristics_sec02 li{font-size: 20px;color: #585858;font-weight: 300;position: relative;padding-left: 11px;line-height: 36px;}
+.characteristics_inn .characteristics_sec02 li::before{content: "";position: absolute;width: 6px;height: 6px;background: #0077b6;border-radius: 50px;left: 0;top: 13px;}
+.characteristics_sec02_inn {margin-top: -123px;}
