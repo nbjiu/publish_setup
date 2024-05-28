@@ -177,21 +177,22 @@
     position: absolute;
    left: 55px;
    top: 20px;
-  width: 122px;
-  height: 110px;
+  width: 102px;
+  height: 100px;
   z-index: 66;
 }
 .for_all_container2 .for_img11{
     position: absolute;
     /* left: 423px;
     top: 1362px; */
-    width: 85px;
-    height: 85px;
+    width: 75px;
+    height: 75px;
     z-index: 66;
+    left: 20px;
 }
 .for_all_container2 .for_img12{
     position: relative;
-    margin-left: 180px;
+    margin-left: 140px;
     padding-top: 10px;
 }
 .image_container_2{

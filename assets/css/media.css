@@ -152,10 +152,18 @@
         height: 150px;
     }
     .for_all_container2 .for_img10{
-       left: 15px;
-       top: 40px;
-    }
-    .for_all_container2 .for_img12{
+        width: 120px;
+        height: 120px;
+        left: 20px;
+        top: 10px;
+    
+     }
+     .for_all_container2 .for_img11{
+        width: 75px;
+        height: 75px;
+        left: 0;
+     }
+     .for_all_container2 .for_img12{
         margin-left: 180px;
         padding-top: 10px;
     }
@@ -193,11 +201,6 @@
     .content_title{
         padding: 10px 0;
     }
-    /* .div_1_sub1_con  .sub1_image2{
-        display: flex;
-        right: 180px;
-        position: absolute;
-     } */
     
      .for_cap2_sub{
         padding: 0 20px;
@@ -236,16 +239,21 @@
      .for_all_container2 .for_img10{
         width: 100px;
         height: 100px;
-        left: 20px;
+        left: 40px;
         top: 15px;
+    
      }
      .for_all_container2 .for_img11{
         width: 65px;
         height: 65px;
-        z-index: 66;
+        left: 20px;
      }
+     .for_all_container2 .for_img12{
+        margin-left: 120px;
+        padding-top: 10px;
+    }
      .container_1 .cap_1{
-        font-size: 18px;
+        font-size: 16px;
      }
      .for_text .cap_2{
         font-size: 18px;
@@ -274,7 +282,7 @@
        padding: 10px 5px;
      }
      .container_1 .cap_1{
-        font-size: 16px;
+        font-size: 12px;
      }
      .image_container_1 img{
          width: 80px;
@@ -283,17 +291,18 @@
      .for_all_container2 .for_img10{
         width: 70px;
         height: 70px;
-        left: 80px;
-        top: 15px;
+        left: 60px;
+        top: 25px;
      }
      .for_all_container2 .for_img11{
         width: 45px;
         height: 45px;
         z-index: 66;
-        left: 70px;
+        left: 50px;
+        top: 20px;
      }
      .for_all_container2 .for_img12{
-         margin-left: 120px;
+         margin-left: 100px;
          padding-top: 10px;
      }
      .image_container_2 img{
