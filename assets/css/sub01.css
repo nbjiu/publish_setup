@@ -5,10 +5,10 @@
     Order: Sub Banner > Sub contents ...
 -------------------------------------------------------------------*/
 
-.page_inner{width: 100%;max-width: calc(100% - 12.2vw);margin: 100px auto;border: 1px solid red;}
+.page_inner{width: 100%;max-width: calc(100% - 12.2vw);margin: 100px auto;}
 
 /* dongil-steel CSS */
-.content_title {font-size: 36px;color: #141414;text-transform: uppercase;}
+.content_title {font-size: 36px;color: #141414;text-transform: uppercase;font-weight: 700;}
 
 
 .characteristics_inn {margin-top: 43px;}
